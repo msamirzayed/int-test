@@ -667,6 +667,14 @@ const data = [
           { title: "Grid Garden", url: "https://cssgridgarden.com" },
           { title: "Frontend Mentor", url: "https://www.frontendmentor.io" }
         ]
+      },
+          {
+        name: "Figma Design Resources",
+        links: [
+          { title: "Free Figma UX/UI Designs", url: "https://dev.to/emmanx/free-figma-ui-designs-for-frontend-practice-3ak2" },
+          { title: "Figma Community", url: "https://www.figma.com/community" },
+
+        ]
       }
     ]
   },
