@@ -582,7 +582,7 @@ const data = [
           { title: "Behance", url: "https://www.behance.net" },
           { title: "Dribbble", url: "https://dribbble.com" },
           { title: "Awwwards", url: "https://www.awwwards.com" },
-          { title: "Designer News", url: "https://www.designernews.co" }
+         
         ]
       },
       {
