@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interview Questions Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      width: 100%;
+    }
+    .sidebar {
+      width: 300px;
+      background-color: #f4f4f4;
+      padding: 1em;
+      overflow-y: auto;
+      border-right: 1px solid #ddd;
+    }
+    .sidebar h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1em;
+    }
+    .sidebar a {
+      display: block;
+      margin-bottom: 0.5em;
+      color: #333;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .sidebar .subcategory-list.collapsed,
+    .sidebar .question-list.collapsed {
+      display: none;
+    }
+    .main-category.open {
+      font-weight: bold;
+    }
+    .subcategory.open {
+      font-style: italic;
+    }
+    .content {
+      flex: 1;
+      padding: 2em;
+      overflow-y: auto;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    .question {
+      margin-bottom: 1.5em;
+    }
+    .question h3, .question h4 {
+      margin: 0 0 0.5em;
+      color: #2c3e50;
+    }
+    .question p {
+      margin: 0;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar" id="sidebar-nav">
+      <h2>Navigation</h2>
+    </aside>
+    <main class="content" id="questions-container">
+    </main>
+  </div>
+  <script src="questions.js" defer></script>
+</body>
+</html>
