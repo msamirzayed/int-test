@@ -171,7 +171,19 @@ const data = [
           {
             q: "What’s the difference between initial, inherit, and unset?",
             a: "'initial' resets to default, 'inherit' takes from parent, 'unset' behaves like inherit or initial based on the property."
-          }
+          },
+          {
+  q: "What is CSS Reset?",
+  a: "CSS Reset removes all default browser styling to ensure consistency across browsers. It often sets margins, paddings, and borders to 0."
+},
+{
+  q: "What is Normalize.css?",
+  a: "Normalize.css preserves useful defaults and fixes browser inconsistencies. Unlike reset, it doesn't wipe all styles."
+},
+{
+  q: "What is the purpose of CSS layers?",
+  a: "CSS layers (`@layer`) help control the order of style application in cascade, allowing scoped and predictable styling especially in large projects or frameworks."
+}
         ]
       },
       {
