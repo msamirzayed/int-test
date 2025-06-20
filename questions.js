@@ -437,7 +437,11 @@ const data = [
           {
             q: "How do you compile and minify SCSS for production?",
             a: "SCSS can be compiled and minified for production using the Sass compiler with the --style=compressed option, or through build tools like Webpack or Gulp."
-          }
+          },
+          {
+  q: "What is the 7-1 pattern in SCSS?",
+  a: "The 7-1 pattern is a folder structure for organizing SCSS projects into 7 directories (abstracts, base, components, layout, pages, themes, vendors) and 1 main.scss file that imports them all. It helps keep code modular, scalable, and maintainable."
+}
         ]
       },
       {
