@@ -266,65 +266,7 @@ const data = [
           }
         ]
       },
-      {
-        subcategory: "Flexbox & Grid Layouts 🧩",
-        questions: [
-          {
-            q: "What is the difference between Flexbox and Grid layout systems?",
-            a: "Flexbox is 1D (row or column), Grid is 2D (rows and columns)."
-          },
-          {
-            q: "When should you use Flexbox over Grid, and vice versa?",
-            a: "Flexbox for linear alignments, Grid for structured, two-dimensional layouts."
-          },
-          {
-            q: "How does the flex shorthand work (flex-grow, flex-shrink, flex-basis)?",
-            a: "Example: flex: 1 0 auto; defines grow, shrink, and base size for flexibility."
-          },
-          {
-            q: "What is the purpose of minmax(), auto-fill, and auto-fit in CSS Grid?",
-            a: "They define flexible track sizes and control how columns fill available space."
-          }
-        ]
-      },
-      {
-        subcategory: "CSS Units & Media Queries 📏",
-        questions: [
-          {
-            q: "What’s the difference between em, rem, %, vh, vw units?",
-            a: "em/rem are font-relative. %, vh, vw are relative to parent or viewport."
-          },
-          {
-            q: "How do media queries work and what are common breakpoints?",
-            a: "Use @media rules for width changes. Common breakpoints: 576px, 768px, 992px, 1200px."
-          },
-          {
-            q: "How would you make an element responsive using only CSS?",
-            a: "Use percentage widths, relative units, and media queries."
-          },
-          {
-            q: "What are clamp(), min(), and max() functions used for?",
-            a: "They define responsive ranges like font-size: clamp(1rem, 2vw, 2rem)."
-          }
-        ]
-      },
-      {
-        subcategory: "Theming & Dark Mode 🌙",
-        questions: [
-          {
-            q: "How can you implement dark mode or theming using only CSS?",
-            a: "Use custom properties and @media (prefers-color-scheme: dark)."
-          },
-          {
-            q: "How can you build a layout that supports both LTR and RTL directions?",
-            a: "Use logical properties (margin-inline-start) or [dir='rtl'] overrides."
-          },
-          {
-            q: "What’s the best way to handle responsive typography in CSS?",
-            a: "Use rem units, clamp(), or media queries."
-          }
-        ]
-      },
+
       {
         subcategory: "CSS Architecture & Methodologies 🏗️",
         questions: [
